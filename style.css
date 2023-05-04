@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: black;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mini-container {
+    height: 105vh;
+    width: 90%;
+    background-color: white;
+}
+
+.navbar {
+    height: 30px;
+    background-color: rgb(255, 255, 0);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+span a {
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+}
+
+span button {
+    background-color: black;
+    color: white;
+    height: 22px;
+    width: 80px;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.navbar-1 {
+    height: 50px;
+    display: flex;
+}
+
+.img-section {
+    width: 35%;
+    display: flex;
+}
+
+.img-section img {
+    margin-left: 20px;
+    border-radius: 30px;
+
+}
+
+.img-section a {
+    margin-left: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.text-section {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul li {
+    list-style: none;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+ul button {
+    margin-left: 40px;
+    height: 32px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+.text-img-section {
+    height: 70vh;
+    display: flex;
+}
+
+.text-section-1 {
+    width: 40%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+
+}
+
+.text-section-1 h5 {
+    margin-top: 120px;
+}
+
+.text-section-1 h1 {
+    margin-top: 40px;
+    font-size: 45px;
+}
+
+.text-section-1 p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: gainsboro;
+}
+
+.text-section-1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.fa-solid {
+    background-color: rgb(255, 255, 0);
+    height: 25px;
+    width: 5%;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+    padding-left: 3px;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+.text-section-1 hr {
+    margin-top: 30px;
+    width: 250px;
+}
+
+.text-section-1 h6 {
+    margin-top: 10px;
+}
+
+.img-section-1 {
+    width: 60%;
+    height: 80vh;
+}
+
+.img-section-1 img {
+    height: 550px;
+    width: 100%;
+}
+
+.footer {
+    margin-top: 70px;
+    height: 80px;
+}
+
+.link {
+    margin-left: 250px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.link li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fa-circle {
+    background-color: white;
+    margin-right: 15px;
+}
